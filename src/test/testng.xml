@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Playwright Automation Suite" thread-count="1" parallel="false">
+
+    <listeners>
+        <listener
+                class-name="Listeners.ExtentReportListers" />
+    </listeners>
+
+    <test name="Regression Test_chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.test.LoginPageTest" />
+            <class name="com.test.HomePageTest" />
+            <class name="com.test.RegistrationTest" />
+            <class name="com.test.ManageClassesTest" />
+            <class name="com.test.ManageCategoryTest" />
+        </classes>
+    </test>
+
+<!--    <test name="Test home Page Test_safari">-->
+<!--        <parameter name="browser" value="chromium" />-->
+<!--        <classes>-->
+<!--            <class name="com.test.HomePageTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
