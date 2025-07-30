@@ -1,4 +1,4 @@
-#Playwright Framework for Java Automation
+## Playwright Framework for Java Automation
 
 A scalable and modular Playwright + Java UI test automation framework using Maven and TestNG for end-to-end testing across modern browsers.
 ---
